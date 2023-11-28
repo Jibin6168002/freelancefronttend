@@ -47,9 +47,9 @@ function Profile() {
         <Col sm={12} md={8}>
           <Add />
           {/* Add other components or content here */}
-          <div className='mt-5 ms-3 test'>
+        {pro &&  <div className='mt-5 ms-3 test'>
             <img className='card-shawdow rounded' src={pro}/>
-          </div>
+          </div>}
         </Col>
       </Row>
 
