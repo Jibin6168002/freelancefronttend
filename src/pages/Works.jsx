@@ -39,7 +39,7 @@ function Works() {
                 <Link to={'/'}><Button className='btn btn-dark'><i style={{ marginRight: '10px' }} class="fa-solid fa-arrow-left"></i>Back to home</Button></Link>
             </div>
             <div  className='mt-5 d-flex justify-content-center align-items-center project-container'>
-                <div className="project-card">
+               {imageData1 && <div className="project-card">
                     <a href="#" className="project-link">
                         <img src={imageData1} alt="" className="project-image" />
                         <div className="over flex-column">
@@ -60,7 +60,7 @@ function Works() {
                             </Card>
                         </div>
                     </a>
-                </div>
+                </div>}
                 <div className="project-card">
                     <a href="#" className="project-link">
                         <img src="https://img.freepik.com/premium-photo/vintage-cyber-girl-digital-old-painting-artwork_743855-2055.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1698796800&semt=ais" alt="" className="project-image" />
