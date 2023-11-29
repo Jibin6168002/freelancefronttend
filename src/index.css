@@ -39,6 +39,15 @@ video{
   width: 100px;
 }
 
+.test{
+  position: relative;
+  width: 250px;
+}
+.test button{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 .test img {
 
   transition: all 0.3s;
